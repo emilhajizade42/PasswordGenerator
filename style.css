@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 32px;
+    background-color: rgb(26, 26, 124);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.inputbox{
+    display: flex;
+    width: 100%;
+}
+.inputbox input{
+    flex-grow: 1;
+    background-color: rgb(31, 31, 95);
+    color: white;
+    padding: 5px;
+}
+#copyBtn{
+    width: 40px;
+    height: 100%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+.optionbox{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+#numInput{
+    width: 30px;
+    height: 20px;
+}
+#generateBtn{
+    background-color: blue;
+    color: white;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+#copyBtn{
+    cursor: pointer;
+}
